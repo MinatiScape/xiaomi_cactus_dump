@@ -1,0 +1,5 @@
+#device         mount point      fstype        [device2] [length=]
+
+/dev/block/platform/bootdevice/by-name/system       /system_root    ext4    ro                                                              wait
+/dev/block/platform/bootdevice/by-name/vendor       /vendor         ext4    ro                                                              wait
+/dev/block/platform/bootdevice/by-name/userdata     /data           ext4    noatime,nosuid,nodev,noauto_da_alloc,errors=panic               wait,check,quota,reservedsize=128M,formattable,resize,forcefdeorfbe=/dev/block/platform/bootdevice/by-name/metadata
