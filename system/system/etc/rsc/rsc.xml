@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<runtime_switchable_config version="1">
+<magic>0x5253434D</magic>
+  <part_info>
+    <name>para</name>
+    <offset>0x50000</offset>
+  </part_info>
+  <proj_info>
+    <proj_item index="0">
+      <name>cactus[op01]</name>
+      <operator>OP01_SPEC0200_SEGC</operator>
+    </proj_item>
+    <proj_item index="1">
+      <name>cactus[op09]</name>
+      <operator>OP09_SPEC0212_SEGC</operator>
+    </proj_item>
+  </proj_info>
+</runtime_switchable_config>
